@@ -500,7 +500,7 @@ header .address i:before {
   margin-right: 15px;
 }
 header #nav {
-  padding: 15px 10px;
+  padding: 25px 10px;
   display: flex;
   flex-wrap: wrap;
   max-width: 1300px;
@@ -1430,7 +1430,7 @@ footer .split #hours > div span > span {
 
 .copy {
   margin-top: 20px;
-  padding: 40px 10px 20px;
+  padding: 20px 10px 40px;
   margin: auto;
   text-transform: uppercase;
   font: 400 16px/1.4 "Overpass", sans-serif;
@@ -1670,10 +1670,10 @@ footer .split #hours > div span > span {
   .phone {
     font-size: 24px;
   }
-  .insurance h2:before {
+  .insurance .container h2:before {
     content: none;
   }
-  .insurance h2:after {
+  .insurance .container h2:after {
     content: none;
   }
   .count {
@@ -1724,9 +1724,6 @@ footer .split #hours > div span > span {
   .count article ul {
     padding: 0 0 0 10px;
     margin-left: 5px;
-  }
-  .insurance .container h2:before {
-    display: none;
   }
   .insurance .container #insurance-list {
     display: block;
@@ -1834,18 +1831,12 @@ footer .split #hours > div span > span {
     font-size: 40px;
   }
   .insurance .container h2:after {
-    content: "";
-    width: 150px;
-    height: 2px;
-    color: #256B82;
-    position: absolute;
-    bottom: 10px;
-    margin: auto;
+    content: none;
   }
   #about {
     box-shadow: 3px 0px 10px lightgray;
     margin: 50px 30px 30px;
-    border-radius: 20px;
+    border-radius: 0;
     padding: 0;
   }
   #about .flex-ed {
@@ -2264,7 +2255,7 @@ footer .split #hours > div span > span {
   }
   .insurance .container h2 {
     margin: 10px 0 -15px;
-    padding: 10px 0 30px;
+    padding: 10px 0 20px;
     font-size: 42px;
   }
   .insurance .flex-ed {
