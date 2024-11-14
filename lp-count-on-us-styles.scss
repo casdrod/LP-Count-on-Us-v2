@@ -401,9 +401,9 @@ footer{overflow:hidden; padding:100px 0 0;background: url(assets/images/lp-count
 
 
 .copy {margin-top:20px;padding:20px 10px 40px; margin:auto;text-transform:uppercase; font:400 16px/1.4 $font; color:#fff; letter-spacing: 1.5px;
-   a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: normal;}
-    p {margin: 20px auto; max-width: 1300px; letter-spacing: 1.5px;}
-    a {color: $primary;
+   a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: 1.5px;}
+    p {margin: 20px auto; max-width: 1300px; }
+    a:not(:last-of-type) {color: $primary;
         &:hover{color:#fff;}
     }
     span {margin: 0 2px;}
